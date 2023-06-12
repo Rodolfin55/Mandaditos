@@ -1,0 +1,160 @@
+
+  main{
+    background-color: #f8f8f8; 
+  }
+
+
+  /*
+  ?Buscador-------------------------------------------------------------------------------------
+  */
+
+  .field {
+    display:flex;
+    position:realtive;
+    margin-top:50px;
+    padding-right:30px;
+    width:100%;
+    flex-direction:row;
+    
+  }
+  
+  .field>input[type=text], .field>button {
+    display:block;
+    font:15px 'Montserrat Alternates';
+    border-radius: 10px;
+  }
+  
+  .field>input[type=text] {
+    flex:1;
+    padding:5px;
+    border:0.2em solid rgba(26, 188, 156, 0.363);
+  }
+  
+  .field>button {
+    padding:0.6em 0.8em;
+    background-color:rgba(0, 136, 247, 0.774);
+    color:white;
+    border:none;
+  }
+  
+  /*
+  ?Formulario Contacto---------------------------------------------------------------------------------------
+  */
+
+  .contact_form{  
+    width: 70%; 
+    margin: auto ;
+    border-radius: 10px; 
+    background-color: #ebebeb; 
+    padding-left: 30px; 
+  }
+  
+  
+  .inputs{
+    background-color: #fbfbfb; 
+    width: 95%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:  rgba(0, 136, 247, 0.774); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgba(0, 136, 247, 0.774); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  .enviar{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgba(0, 136, 247, 0.774); 
+    border-color:rgba(26, 188, 156, 0.363); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  .enviar p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color:  rgb(247, 0, 0); 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #000000;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #d84848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #d84848;
+  }
